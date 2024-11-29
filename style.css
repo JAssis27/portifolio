@@ -1,0 +1,56 @@
+body { 
+    background-image: url("https://wallpapers.com/images/hd/dark-souls-sen-s-fortress-midnight-cover-r3kmsq1hcnytrhxw.webp");
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative; 
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+li {
+    list-style: none;
+}
+
+
+
+.Eu {
+    position: absolute;
+    background-image: url(Eu.jpg);
+    width: 500px;
+    height:500px ;
+    z-index: 10; 
+   background-size: cover;
+   border-radius: 50%;
+   background-position: center;
+   display:flex;
+   margin-top: 10%;
+   margin-left: 1%;
+   transform: translate(-50,-50);
+}
+nav{
+    display: flex; 
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+section  {
+    position: absolute;
+    background-position: right;
+    margin-top: 10%;
+    margin-left: 60%;
+    width: 30%; 
+    max-width: 900px; 
+    height: 1000; 
+    z-index: 1000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
